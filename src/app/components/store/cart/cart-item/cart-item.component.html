@@ -1,0 +1,14 @@
+<div
+class="cart-item"
+>
+<span>{{cartItem.qty}}</span>x
+  <span>{{cartItem.productName}}</span>
+
+    <strong>{{cartItem.qty * cartItem.price|currency:'USD'}}             </strong>
+    <button type="button"
+            class="btn btn-sm btn-outline-danger"
+            (click)="handleRemoveFromCart()"
+> <fa-icon  [icon]='faTimes'></fa-icon></button>
+
+</div>
+

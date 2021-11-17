@@ -1,0 +1,15 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+/* You can add global styles to this file, and also import other style files */
+.wrapper {
+  border: 1px solid rgb(223,223,223);
+  padding: 1%;
+}
+
+.navbar {
+  background-color: rgb(33,37,41);
+
+}
+
+a {
+  color: rgb(223,223,223);
+}
